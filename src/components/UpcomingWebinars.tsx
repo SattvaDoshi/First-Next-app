@@ -9,7 +9,7 @@ function UpcomingWebinars() {
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-base font-semibold leading-7 text-indigo-400">Pricing</h1>
           <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Whether it's just you, or your entire team - we've got you covered.
+            Whether it&apos;s just you, or your entire team - we&apos;ve got you covered.
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-300">
@@ -135,4 +135,4 @@ function UpcomingWebinars() {
         
   )}
 
-        export default UpcomingWebinars;
+export default UpcomingWebinars;
