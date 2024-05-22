@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import Link from "next/link";
 import courseData from "@/data/music_courses.json"
 
 function page() {
@@ -49,7 +50,9 @@ function page() {
                       as="button"
                       className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
-                      Sign up
+                     <Link href={"/signup"}>
+                     Sign Up
+                     </Link>
                     </CardItem>
                   </div>
                 </CardBody>

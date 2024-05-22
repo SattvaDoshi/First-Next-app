@@ -21,14 +21,24 @@ function HeroSection() {
           Dive into our comprehensive music courses and transform your musical journey today. Whether you&apos;re a beginner or looking to refine your skills, join us to unlock your true potential.
         </p>
         <div className="mt-4">
+          <div className="flex gap-5 justify-center align-middle items-center">
           <Link href={"/courses"}>
             <Button
               borderRadius="1.75rem"
-              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800 text-lg px-2"
             >
               Explore courses
             </Button>
           </Link>
+          <Link href={"/signup"}>
+            <Button
+              borderRadius="1.75rem"
+              className="bg-white text-black border-neutral-200 text-lg"
+            >
+              Sign Up
+            </Button>
+          </Link>
+          </div>
         </div>
       </div>
     </div>
